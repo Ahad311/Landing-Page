@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: 'Roboto' , sans-serif;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-.top {
-    background-color: #1F2937;
-    height: 400px;
+* {
     margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 0px 18em;
 }
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
-.logo{
+#logo {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
-    margin-left: 340px;
     padding-top: 20px;
 }
-.right {
-    margin-right: 265px;
-}
-ul{ 
+
+ul{
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -41,25 +41,25 @@ a {
 /* End of header/ Section below header */
 .first {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 7em;
+    padding: 7em 0; 
 }
 .left-box{
     display: flex;
     flex-direction: column;
-    margin-left: 340px;
-    width: 500px;
-    margin-top: 20px;
+    gap: 10px;
 }
 .large-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     padding: 0;
-    padding-top: 40px;
     margin: 0;
 }
 .small-text {
+    display: flex;
     font-size: 18px;
     color:#E5E7EB;
     padding: 10px 0px 20px 0px;
@@ -75,14 +75,15 @@ a {
     font-size: 16px;
 }
 .right-box {
-    display:flex;
+    display: flex;
+    flex-shrink: 0;
     border: none;
-    width: 500px;
-    height: 200px;
+    width: 50%;
+    height: 215px;
     background-color: grey;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+
 }
 
 /* A short story*/
